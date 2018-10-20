@@ -3,9 +3,9 @@
 - [Content](#content)
 - [Description](#description)
 - [Prerequisites](#prerequisites)
-    - [Visual Studio Code](#visual-studio-code)
-    - [npm](#npm)
-    - [pug](#pug)
+  - [Visual Studio Code](#visual-studio-code)
+  - [npm](#npm)
+  - [pug](#pug)
 - [Configuration for VScode](#configuration-for-vscode)
 - [Compatibility](#compatibility)
 - [To do list](#to-do-list)
@@ -103,9 +103,9 @@ Options:
 
 # Configuration for VScode
 
-First Create a task
+First create a task
 
-```json
+```typescript
 {
   // See https://go.microsoft.com/fwlink/?LinkId=733558
   // for the documentation about the tasks.json format
@@ -122,7 +122,7 @@ First Create a task
   }]
 }
 ```
-Then Running the task, when pug file is saved, html file (with nested style)will be automatically generated and there is no output logs.
+Then running the task, when pug file is saved, html file (with nested style)will be automatically generated and there is no output logs.
 
 
 # Compatibility
